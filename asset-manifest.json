@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/greenearth/static/css/main.b1fe5865.css",
+    "main.js": "/greenearth/static/js/main.ab82a070.js",
+    "static/js/787.af205d06.chunk.js": "/greenearth/static/js/787.af205d06.chunk.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/greenearth/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/greenearth/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/greenearth/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/greenearth/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/greenearth/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "index.html": "/greenearth/index.html",
+    "main.b1fe5865.css.map": "/greenearth/static/css/main.b1fe5865.css.map",
+    "main.ab82a070.js.map": "/greenearth/static/js/main.ab82a070.js.map",
+    "787.af205d06.chunk.js.map": "/greenearth/static/js/787.af205d06.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1fe5865.css",
+    "static/js/main.ab82a070.js"
+  ]
+}
