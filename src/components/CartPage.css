@@ -1,0 +1,390 @@
+/* Cart Container */
+.cart-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Cart Item */
+.cart-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.cart-item img {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.cart-item .item-details {
+  flex-grow: 1;
+}
+
+.cart-item .item-details h4 {
+  margin: 0;
+  color: #333;
+}
+
+.cart-item .item-details p {
+  margin: 0;
+  color: #888;
+}
+
+.cart-item .item-quantity {
+  display: flex;
+  align-items: center;
+}
+
+.cart-item .item-quantity input {
+  width: 40px;
+  height: 30px;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.cart-item .item-quantity .quantity-btn {
+  margin: 0 5px;
+  cursor: pointer;
+  background-color: #ccc;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.cart-item .item-price {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Cart Total */
+.cart-total {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.cart-total span {
+  margin-left: 10px;
+  color: #ff5733;
+}
+
+/* Cart Buttons */
+.cart-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.cart-buttons button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #ff5733;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cart-buttons button:hover {
+  background-color: #e54828;
+}
+
+/* Empty Cart Message */
+.empty-cart-message {
+  text-align: center;
+  margin-top: 20px;
+  color: #888;
+}
+
+/* Cart Table */
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cart-table th,
+.cart-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+  color: #333;
+}
+
+.cart-table th {
+  font-weight: bold;
+}
+
+.cart-table td {
+  vertical-align: middle;
+}
+
+.cart-table button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: blue;
+}
+
+.cart-table button:focus {
+  outline: none;
+}
+
+.quantity-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.quantity-label {
+  font-weight: bold;
+}
+
+.quantity-input {
+  width: 40px;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.quantity-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.quantity-button:hover {
+  background-color: #e0e0e0;
+}
+
+.quantity-button svg {
+  width: 10px;
+  height: 10px;
+}
+
+.quantity-button.plus {
+  margin-left: 5px;
+}
+
+.quantity-button.minus {
+  margin-right: 5px;
+}
+
+.quantity-error {
+  color: red;
+  font-size: 12px;
+}
+
+/* Thumbnails */
+.thumbnail {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+/* Active Thumbnail */
+.thumbnail.active {
+  border: 2px solid blue;
+}
+
+
+
+
+/* Add additional styling as needed */
+.checkout-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkout-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  max-width: 800px;
+  width: 90%;
+}
+
+.checkout-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+ 
+  font-size: 33px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* .checkout-content {
+ 
+}
+
+.checkout-continue {
+ 
+} */
+.checkout-modal-content {
+  width: 500px; /* Adjust the width as needed */
+  height: 400px; /* Adjust the height as needed */
+  background-color: #fff;
+  padding: 20px;
+  position: relative;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.product-summary {
+  width: 50%;
+  float: left;
+  overflow-y: scroll;
+}
+
+.product-summary-content {
+  max-height: 400px; /* Adjust the max height as needed */
+  padding-right: 10px; /* Add some padding to accommodate the scrollbar */
+}
+
+.delivery-address {
+  width: 50%;
+  float: right;
+}
+.Delivery-T0{
+  color: #da4c4c;
+}
+.checkout-box {
+  /* existing styles */
+  overflow-y: auto;
+}
+
+
+
+
+.checkout-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 400px; /* Adjust the height as needed */
+  overflow-y: scroll;
+  /* width: 800px; 
+  height: 600px; 
+  background-color: #fff;
+  padding: 20px;
+  position: relative;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+/* .continue-buttons {
+  text-align: left;
+  margin-top: 2000px;
+} */
+
+.continue-button {
+  padding: 10px 20px;
+  background-color: #ff9800;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.continue-button:hover {
+  background-color: #ffac33;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+
+.payment-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.payment-methods {
+  margin-bottom: 20px;
+}
+
+.payment-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.payment-icon {
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+
+.payment-icon.selected {
+  opacity: 1;
+}
+
+.account-details {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+  font-size: 16px;
+}
+
+
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}

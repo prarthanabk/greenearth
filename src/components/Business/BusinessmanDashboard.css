@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card {
+    width: 280px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  img {
+    width: 110%;
+    height: 265px;
+    object-fit: cover;
+  }
+  
+  h2 {
+    margin: 10px 0;
+    align-items: center;
+  }
+  
+  p {
+    font-weight: bold;
+  }
